@@ -8,7 +8,7 @@ const talkedRecently = new Set();
 module.exports = async (client, message) => {
     try {
         if (message.author.bot || message.channel.type === "dm") return;
-
+        
         let prefix;
         let fetched = await db.fetch(`prefix_${message.guild.id}`);
 
