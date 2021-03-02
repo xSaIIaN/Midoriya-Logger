@@ -1,0 +1,7 @@
+{
+    "token": "tokenhere",
+    "owners": ["ownerid"],
+    "PREFIX": "prefix",
+    "color": "black",
+    "cooldown": 5 
+}
