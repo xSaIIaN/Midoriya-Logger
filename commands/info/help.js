@@ -40,7 +40,7 @@ module.exports = {
             let command = client.commands.get(client.aliases.get(args[0].toLowerCase()) || args[0].toLowerCase())
             if (!command) return message.channel.send(embed.setTitle("**Invalid Command!**").setDescription(`**Do \`${prefix}help\` For the List Of the Commands!**`))
             command = command.config
-
+            
             embed.setDescription(stripIndents`**The Midoriya's Global Prefix Is \`${PREFIX}\`**\n
             **Server Prefix Is \`${prefix}\`**\n
             ** Command -** ${command.name.slice(0, 1).toUpperCase() + command.name.slice(1)}\n
