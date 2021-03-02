@@ -25,7 +25,6 @@ Midoriya is a open source Discord bot coded in JavaScript with [Discord.js](http
     <img src="https://cdn.discordapp.com/avatars/811527615487672381/84859d495e6cb30dbdc399dc5282b406.png?size=1024" alt="Midoriya" />
 </a>
 
-
 * **Any Questions/Suggestions? Ask them in our Support Server**
 </br></br>
 <a href="https://discord.gg/yS4rJv5nns"><img src="https://invidget.switchblade.xyz/yS4rJv5nns"/></a>
