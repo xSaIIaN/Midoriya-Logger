@@ -16,7 +16,7 @@ module.exports = {
     run: async (client, message, args) => {
         if(message.author.bot) return;
         if (!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send("**You Do Not Have The Required Permissions! - [ADMINISTRATOR]**")
-
+        
         let prefix;
         let fetched = await db.fetch(`prefix_${message.guild.id}`);
 
