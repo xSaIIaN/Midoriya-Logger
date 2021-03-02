@@ -23,7 +23,7 @@ module.exports = {
         } else {
             prefix = fetched
         }
-
+        
         if(!args[0]) {
             const embed = new Discord.MessageEmbed()
                   .setAuthor(message.guild.name, message.guild.iconURL())
