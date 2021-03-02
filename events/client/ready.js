@@ -7,7 +7,7 @@ module.exports = async client => {
     console.log('\x1b[32m%s\x1b[0m', `$[INFO] Prefix: ${PREFIX}`)
     console.log('\x1b[31m%s\x1b[0m', `$[INFO] Members: ${totalUsers}`)
     console.log('\x1b[31m%s\x1b[0m', `$[INFO] Guilds: ${totalGuilds}`)
-
+    
     var activities = [
         `Working at ${client.guilds.cache.size} servers!`,
         `Servicing ${totalUsers} users!`, 
